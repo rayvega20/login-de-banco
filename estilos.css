@@ -3,7 +3,7 @@
   }
   
   .bg-image {
-    background-image: url('https://img.freepik.com/vector-gratis/logotipo-banca-plantilla-negocio-vector-diseno-marca_53876-140610.jpg?w=2000');
+    background-image: url(/login-de-banco/img/banco.png);
     background-size: cover;
     background-position: center;
   }
