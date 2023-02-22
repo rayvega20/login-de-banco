@@ -20,5 +20,10 @@
   
 .formulario-1{
   display: flex;
+  margin-right: 10px;
   
 }   
+
+.formulario2{
+  margin-left: 20px;
+}
