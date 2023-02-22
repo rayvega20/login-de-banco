@@ -1,6 +1,17 @@
 let chec = document.getElementById("empresa");
-chec.addEventListener("click",(e)=>{
+chec.addEventListener("change", function(){
+    input.setAttribute('maxlength', 5);
+  if(this.checked){
 
-  let dn = document.getElementById("numeroDocumento");
-  dn.value = 2222;
+    inputCadena.value = 4555;
+  }
+});
+
+let che = document.getElementById("borrar");
+che.addEventListener("change",function(){
+
+  inputCadena.value = ""
+
 })
+
+
