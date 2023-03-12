@@ -9,6 +9,8 @@ Para utilizar este proyecto, simplemente clona este repositorio en tu máquina l
 
 
 git clone https://github.com/rayvega20/login-de-banco.git
+
+
 Luego, abre el archivo index.html en tu navegador web preferido.
 
 ![Captura de pantalla (278)](https://user-images.githubusercontent.com/90875621/224576211-0fd0c21b-439c-4b57-a109-02e50d15163d.png)
