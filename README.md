@@ -1,7 +1,7 @@
 # login-de-banco
 
 Este proyecto es un sistema de login de banco que te permite ingresar con tu tarjeta de débito. le agregamos captcha y un cronometro de tiempo 
-de 120 segundos el caul finalizara y te llevara a otra pagina una vez q se acabe el tiempo 
+de 120 segundos el cual finalizara y te llevara a otra pagina una vez q se acabe el tiempo 
 
 Instalación
 Para utilizar este proyecto, simplemente clona este repositorio en tu máquina local utilizando el siguiente comando:
