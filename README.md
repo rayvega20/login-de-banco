@@ -6,7 +6,7 @@ de 120 segundos el cual finalizara y te llevara a otra pagina una vez q se acabe
 Instalación
 Para utilizar este proyecto, simplemente clona este repositorio en tu máquina local utilizando el siguiente comando:
 
-bash
+
 
 git clone https://github.com/rayvega20/login-de-banco.git
 Luego, abre el archivo index.html en tu navegador web preferido.
