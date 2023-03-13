@@ -3,9 +3,10 @@
   }
   
   .bg-image {
-    background-image: url(/img/bydefault.jpg);
-    background-size: cover;
-    background-position: center;
+    background-image: url("/img/Captura.PNG");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
   }
   
   .login-heading {
@@ -31,17 +32,22 @@
 .estiloh3{
   font-weight: bold;
   color: rgb(20, 20, 148);
+  margin-top: 1px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .botton{
-  background-color: #FF7800;
+  background-color: #23297c;
   padding: 10px 50px;
-  border-color: #FF7800;
   border-radius: 5px;
+  color: #fff;
+  font: 18px Flexo-Demi, helvica, arial, sans-serif;
 }
 
+
+
 .cambiar{
- color: #FF7800;
+ color: #1e2091;
  font: 14px Flexo-Demi, helvica, arial, sans-serif;
  text-decoration: none;
  font-weight: bold;
@@ -50,4 +56,112 @@
 
 .probarc{
   margin-left: 20px;
+}
+
+
+
+.input-control input:focus{
+outline: 0;
+}
+
+.input-control.success input{
+  border-color:#09c372;
+}
+
+.input-control.error input{
+  border-color:#ff3860;
+}
+
+.input-control .error{
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+}
+
+.inicio{
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.inicio a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tiempo{
+  margin-left: 60%;
+  color: rgb(20, 20, 148);
+}
+
+.botoninicio {
+  padding: 0.1em 0.25em;
+  width: 13em;
+  height: 4.2em;
+  background-color: #212121;
+  border: 0.08em solid #2f3e9d;
+  border-radius: 0.3em;
+  font-size: 12px;
+}
+
+.botoninicio span {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0.4em;
+  width: 8.25em;
+  height: 2.5em;
+  background-color: #2b297d;
+  border-radius: 0.2em;
+  font-size: 1.5em;
+  color: #535197;
+  box-shadow: 0 0.4em 0.1em 0.019em #a4a4b0;
+}
+
+.botoninicio span:hover {
+  transition: all 0.5s;
+  transform: translate(0, 0.4em);
+  box-shadow: 0 0 0 0 #5b62a6;
+}
+
+.botoninicio span:not(hover) {
+  transition: all 1s;
+}
+
+.botoninicio span a{
+  color: #fff;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#random {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 2px gray;
+}
+
+#random:hover {
+  background-color: #ddd;
+}
+
+#random:active {
+  box-shadow: 0 0 4px gray;
 }

@@ -18,3 +18,10 @@ const inputCadena = document.getElementById("numeroDocumento");
     // Establecer el valor de entrada con los espacios insertados
     inputCadena.value = outputValue;
   });
+
+  
+
+
+
+
+  
