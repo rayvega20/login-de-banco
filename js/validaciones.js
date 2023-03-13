@@ -23,3 +23,14 @@ function solonumeros(e){
 
 }
 
+
+// alertas
+
+$('#click').on('click',function(){
+    Swal.fire(
+        'Bienvenido',
+        'Entro a su cuenta de banco',
+        'success'
+      )
+});
+    

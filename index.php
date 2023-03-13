@@ -24,6 +24,9 @@ if(isset($_POST['submit'])){
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="/estilos.css">
     <link rel="stylesheet" href="/login-de-banco/main.js">
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
     <title>Login de usuario</title>
   </head>
   
@@ -200,7 +203,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                 </script>
 
                 <div class="d-grid mb-1">
-                  <button type="submit" class="botton">Continuar</button>
+                  <button id="click" type="submit" class="botton" >Continuar</button>
                 </div>
 
               </form>
@@ -216,5 +219,8 @@ document.addEventListener("DOMContentLoaded", () => {
     <script src="/js/main.js"></script>    
     <script src="/js/empresa.js""></script>         
     <script src="/js/validaciones.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
   </body>
 </html>
